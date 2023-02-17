@@ -9,5 +9,5 @@ const fishSchema = new Schema({
   fullDescrition: { type: String, required: true },
   lures: { type: String, required: true },
   },
-  { collection : 'fish' })
+  { collection : 'fishes' })
 export default mongoose.model('Fish', fishSchema);

@@ -12,5 +12,5 @@ const fishSchema = new Schema({
     smallDescrition: { type: String, required: true },
     fullDescrition: { type: String, required: true },
     lures: { type: String, required: true },
-}, { collection: 'fish' });
+}, { collection: 'fishes' });
 exports.default = mongoose_1.default.model('Fish', fishSchema);
